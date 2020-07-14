@@ -1,6 +1,9 @@
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const autoprefixer = require('autoprefixer');
+const imageminMozjpeg = require('imagemin-mozjpeg');
+const ImageminPlugin = require('imagemin-webpack-plugin').default;
+
 const env = process.env.NODE_ENV || 'development';
 // set to 'production' or 'development' in your env
 
@@ -67,6 +70,11 @@ module.exports = {
     new HtmlWebpackPlugin({
       template: './src/index.html',
       filename: './index.html',
+    }),
+    new ImageminPlugin({
+      pngquant: ({ quality: [0.5, 0.5] }),
+      plugins: [
+        imageminMozjpeg({ quality: 50 })],
     }),
   ],
 };
