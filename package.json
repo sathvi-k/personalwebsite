@@ -41,6 +41,7 @@
   },
   "dependencies": {
     "eslint": "^7.4.0",
+    "jpegtran-bin": "^5.0.2",
     "jquery": "^3.5.1"
   }
 }
