@@ -1,11 +1,6 @@
-# Title
+# SA 3: Starter Pack
 
-*description*
+[deployed url](http://sathvi-cs52-starter.surge.sh/)
 
-[deployed url](http://url-if-deployed-here)
-
-## What Worked Well
-
-## What Didn't
-
-## Screenshots
+## Extra credit: 
+I added the [Imagemin plugin for webpack](https://github.com/Klathmon/imagemin-webpack-plugin), which compresses and optimizes all images in your project. 
