@@ -1,11 +1,7 @@
-import $ from 'jquery';
+import React from 'react';
+import ReactDOM from 'react-dom';
 import './style.scss';
 
-let num = 0;
-$('#main').html(`You've been on this page for ${num} second(s).`);
+const App = () => <div className="test">All the REACT are belong to us!</div>;
 
-/* https://www.w3schools.com/jsref/met_win_setinterval.asp */
-setInterval(() => {
-  num += 1;
-  $('#main').html(`You've been on this page for ${num} second(s).`);
-}, 1000);
+ReactDOM.render(<App />, document.getElementById('main'));
