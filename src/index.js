@@ -12,6 +12,14 @@ const Welcome = (props) => {
   return <div>Welcome</div>;
 };
 
+const Test = (props) => {
+  return <div> ID: {props.match.params.id} </div>;
+};
+
+const FallBack = (props) => {
+  return <div>URL Not Found</div>;
+};
+
 const Nav = (props) => {
   return (
     <nav>
@@ -23,14 +31,6 @@ const Nav = (props) => {
       </ul>
     </nav>
   );
-};
-
-const Test = (props) => {
-  return <div> ID: {props.match.params.id} </div>;
-};
-
-const FallBack = (props) => {
-  return <div>URL Not Found</div>;
 };
 
 const App = (props) => {
