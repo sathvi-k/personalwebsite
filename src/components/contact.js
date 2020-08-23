@@ -11,7 +11,7 @@ const Contact = () => {
       <div className="contact-container">
         <a className="icons" href="https://www.linkedin.com/in/sathvika-korandla/"> <i className="fab fa-linkedin" aria-hidden="true" /></a>
         <a className="icons" href="https://github.com/sathvi-k"> <i className="fab fa-github" /></a>
-        <a className="icons" href="hi.com"><i className="far fa-file" /> </a>
+        <a className="icons" href="https://drive.google.com/file/d/1HMTqLEte-8yxhfZL-4qUI-tXNeK508cF/view?usp=sharing"><i className="far fa-file" /> </a>
         <a className="icons" href="mailto:sathvika.r.korandla.22@dartmouth.edu"><i className="far fa-envelope" /> </a>
       </div>
     </div>
