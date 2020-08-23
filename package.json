@@ -10,7 +10,7 @@
     "test": "eslint src/**.js",
     "build": "yarn clean; NODE_ENV=production webpack --colors",
     "clean": "rimraf dist",
-    "deploy": "yarn build; surge -p dist -d sathvi-cs52-starter.surge.sh; yarn clean"
+    "deploy": "yarn build; surge -p dist -d sathvikakorandla.surge.sh; yarn clean"
   },
   "devDependencies": {
     "@babel/core": "^7.10.4",
@@ -47,11 +47,15 @@
     "jpegtran-bin": "^5.0.2",
     "jquery": "^3.5.1",
     "lodash.debounce": "^4.0.8",
+    "prop-types": "^15.7.2",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
+    "react-modal": "^3.11.2",
     "react-redux": "^7.2.1",
+    "react-rotating-text": "^1.4.1",
     "react-router": "^5.2.0",
     "react-router-dom": "^5.2.0",
+    "react-vertical-timeline-component": "^3.0.2",
     "redux": "^4.0.5",
     "redux-thunk": "^2.3.0"
   }
