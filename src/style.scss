@@ -229,6 +229,8 @@ h2 {
   // align-items: center;
   flex-direction: row;
   justify-content: space-around;
+  margin-left: 100px;
+  margin-right: 100px;
 }
 
 .icons:nth-child(even) {
@@ -330,7 +332,7 @@ nav label, #hamburger{
   display: none;
 }
 
-@media only screen and (max-width:640px){
+@media only screen and (max-width:680px){
   .navbar {
     background-color: rgb(0, 0, 0);
     color: rgb(0, 0, 0);
