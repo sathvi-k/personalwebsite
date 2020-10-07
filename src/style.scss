@@ -69,6 +69,13 @@ a:active {
   }
 }
 
+/* .side-by-side {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+} */
+
 .about {
   display: flex;
   justify-content: center;
@@ -82,10 +89,10 @@ a:active {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 40px;
+  margin: 30px 40px;
   img {
     border-radius: 200px;
-    height: 300px;
+    height: 260px;
   }
 }
 
@@ -95,11 +102,11 @@ a:active {
   align-items: center;
   flex-direction: column;
   text-align: center;
-  margin-top: 40px;
+  margin-top: 30px;
   margin-bottom: 20px;
   margin-left: 15vw;
   margin-right: 15vw;
-  padding: 20px 0;
+  padding: 0 0 20px 0;
 }
 
 h1 {
@@ -141,7 +148,13 @@ Navlink {
 }
 
 .project-name {
-  font-size: 20px;
+  font-size: 26px;
+}
+
+.project-tagline {
+  font-size: 18px;
+  color: rgb(34, 151, 230);
+  margin: 5px;
 }
 
 .project-pic{
@@ -168,11 +181,10 @@ h2 {
   margin-right: 200px;
 }
 
-
-
 .skills{
   text-align: center;
   margin: 0 20vw 40px 20vw;
+  padding: 0 0 40px 0;
 }
 
 .tag {

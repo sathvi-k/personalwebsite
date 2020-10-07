@@ -16,7 +16,7 @@ const Experience = () => {
         <h3 className="vertical-timeline-element-title">Software Developer</h3>
         <h4 className="vertical-timeline-element-subtitle">Digital Applied Learning and Innovation (DALI) Lab</h4>
         <p>
-          This fall, I&apos;ll be working as a software developer to create software solutions alongside student designers and product managers.
+          I&apos;m working as a software developer to create software solutions alongside student designers and product managers.
         </p>
       </VerticalTimelineElement>
       <VerticalTimelineElement
