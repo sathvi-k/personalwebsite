@@ -56,7 +56,7 @@ class Projects extends Component {
           </div>
           <div className="project-container">
             <div className="project-name">
-              MusicDiscovery
+              <a href="http://sathvi-cs52-sa8.surge.sh/">MusicDiscovery</a>
             </div>
             <div className="project-tagline">
               A music sharing and discovery platform
