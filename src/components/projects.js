@@ -35,7 +35,7 @@ class Projects extends Component {
           </div>
           <div className="project-container">
             <div className="project-name">
-              AptiTune
+              <a href="https://aptitune.surge.sh/">AptiTune</a>
             </div>
             <div className="project-tagline">
               Learning music made fun and interactive
@@ -79,7 +79,7 @@ class Projects extends Component {
           </div>
           <div className="project-container">
             <div className="project-name">
-              Collaborative Post-It Notes
+              <a href="http://sathvi-cs52-notes.surge.sh/">Collaborative Post-It Notes</a>
             </div>
             <div className="project-tagline">
               Create and share fun post-it notes

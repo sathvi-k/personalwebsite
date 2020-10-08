@@ -149,6 +149,13 @@ Navlink {
 
 .project-name {
   font-size: 26px;
+  a {
+    color: rgb(0, 0, 0);
+    text-decoration: underline;
+  }
+  a:hover{
+    color: rgb(241, 126, 19);
+  }
 }
 
 .project-tagline {
