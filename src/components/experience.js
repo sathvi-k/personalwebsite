@@ -9,14 +9,30 @@ const Experience = () => {
         className="vertical-timeline-element--work"
         contentStyle={{ background: 'rgb(255, 220, 200)', color: '#000' }}
         contentArrowStyle={{ borderRight: '7px solid  rgb(255, 220, 200)' }}
-        date="September 2020 - Present"
-        position="right"
+        date="January 2020 - Present"
+        position="left"
         iconStyle={{ background: 'rgb(255, 220, 200)', color: '#fff' }}
+      >
+        <h3 className="vertical-timeline-element-title">Software Engineering Intern</h3>
+        <h4 className="vertical-timeline-element-subtitle">Constant Contact</h4>
+        <p>
+          I&apos;m currently a software engineering intern at Constant Contact, where I&apos;m working with React, Javascript, Springboot and Java to help build out the customer-facing
+          billing UI.
+        </p>
+      </VerticalTimelineElement>
+      <VerticalTimelineElement
+        className="vertical-timeline-element--work"
+        contentStyle={{ background: 'rgb(240, 240, 240)', color: '#000' }}
+        contentArrowStyle={{ borderRight: '7px solid  rgb(240, 240, 240)' }}
+        date="September 2020 - December 2020"
+        position="right"
+        iconStyle={{ background: 'rgb(240, 240, 240)', color: '#000' }}
       >
         <h3 className="vertical-timeline-element-title">Software Developer</h3>
         <h4 className="vertical-timeline-element-subtitle">Digital Applied Learning and Innovation (DALI) Lab</h4>
         <p>
-          I&apos;m working as a software developer to create software solutions alongside student designers and product managers.
+          I worked as a software developer alongside designers, product managers, and partners to create an Alexa Skill for the New Hampshire Public Radio Civics 101 Podcast team. The skill, NHPR
+          Civics, is a quiz game that allows people to test their civics knowledge and learn more about civics topics.
         </p>
       </VerticalTimelineElement>
       <VerticalTimelineElement

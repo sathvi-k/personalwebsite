@@ -64,6 +64,4 @@ class Project extends Component {
   }
 }
 
-// const props = {};
-
 export default Project;

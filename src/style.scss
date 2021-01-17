@@ -123,8 +123,8 @@ Navlink {
 
 
 .project-container {
-  height: 400px;
-  width: 400px;
+  height: 360px;
+  width: 360px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -144,7 +144,7 @@ Navlink {
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
-  margin: 40px 5vw;
+  margin: 40px 4vw;
 }
 
 .project-name {
@@ -162,11 +162,12 @@ Navlink {
   font-size: 18px;
   color: rgb(34, 151, 230);
   margin: 5px;
+  text-align: center;
 }
 
 .project-pic{
   img {
-    width: 350px;
+    width: 300px;
     padding: 10px;
   }
 }

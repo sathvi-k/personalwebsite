@@ -19,10 +19,9 @@ const About = () => {
         <p>I&apos;m a &apos;22 (junior) at Dartmouth College studying <span className="under">Computer Science.</span> I&apos;m interested
           in <span className="under">software development,</span> whether it&apos;s front-end, back-end, or full-stack development! Additionally, I found a love for numbers
           and patterns through math while growing up, which has transformed into my interest in <span className="under">machine learning</span> and <span className="under">data science.</span> At
-          Dartmouth, I&apos;m a developer in the <span className="under">DALI Lab,</span>
-          on the Executive Board of <span className="under"> Women in Computer Science (WiCS),</span> and Co-Director of Humans of Dartmouth. In my free time,
-          I enjoy learning about product design, reading about art history, making <span className="under">Spotify playlists,</span> and trying out new productivity
-          tech/tools.
+          Dartmouth, I&apos;m a developer in the <span className="under">DALI Lab,</span> on the Executive Board of <span className="under"> Women in Computer Science (WiCS),</span> and
+          Co-Director of Humans of Dartmouth. In my free time, I enjoy learning about product design, reading about art history, making <span className="under">Spotify playlists,</span> and
+          trying out new productivity tech/tools.
         </p>
       </div>
       <div className="skills">

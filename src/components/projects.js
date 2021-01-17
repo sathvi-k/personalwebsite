@@ -5,6 +5,8 @@ import notes from '../img/notes.jpg';
 import music from '../img/music.jpg';
 import aptitune from '../img/aptitune.gif';
 import smartvote from '../img/smartvote.png';
+import ecoconscious from '../img/ecoconscious.jpg';
+import giftn from '../img/giftn.jpg';
 
 class Projects extends Component {
   render() {
@@ -12,6 +14,48 @@ class Projects extends Component {
       <div>
         <h2>Check out some of my projects!</h2>
         <div className="projects-area">
+          <div className="project-container">
+            <div className="project-name">
+              Giftn
+            </div>
+            <div className="project-tagline">
+              Holiday gift-shopping without the stress
+            </div>
+            <div className="project-pic">
+              <img alt="music" src={giftn} />
+            </div>
+            <Project
+              title="Giftn"
+              content="I competed in HackUMass VIII and Winter Hacklympics with 3 friends, and we built Giftn in the course of 36 hours. Giftn won Best Financial Hack at HackUMass and Best Overall
+              Hack at Winter Hacklympics. Giftn consists of a web-app and a Chrome extension that helps users manage their gift-buying during the holiday season. The Chrome extension helps
+              users add a product on Amazon for a certain person on their gift list, and the web-app allows users to manage their gift lists for everyone they're buying gifts for. Our goal was
+              to make a fun application that involved holiday spirit and would help people reduce any gift-giving stress. I built the Chrome extension, which allows users to add Amazon products
+              to their gift list for their friends and family."
+              tools="React.JS, Redux, Express.JS, Node.JS, Javascript, Firestore, Google Cloud"
+            />
+          </div>
+          <div className="project-container">
+            <div className="project-name">
+              EcoConscious Tech
+            </div>
+            <div className="project-tagline">
+              Be environmentally conscious
+            </div>
+            <div className="project-pic">
+              <img alt="music" src={ecoconscious} />
+            </div>
+            <Project
+              title="EcoConscious Tech"
+              content="I competed in HackDuke: Code for Good with 3 friends, and in 30 hours, we built EcoConscious Tech, which won the Wolfram Prize and 2nd place prize in the Energy/Environment
+              Track. EcoConscious Tech consists of the Carbon Emissions Monitor VSCode extension, the Green Web Google Chrome Extension, and the EcoConscious Tech Web App. The Carbon Emissions Monitor
+              VSCode extension helps developers become aware of the carbon they emit while running code, encouraging them to write code with less run-time that is better for the planet.
+              The Green Web Google Chrome Extension guides users to be more eco-friendly by notifying them when a website they visit is run on renewable energy or not. Finally, the
+              EcoConscious Tech Web App centralizes all of these features, allowing a user to see their own environmental impact on the planet. The EcoConscious Tech Web App first
+              features information about the tech industry's mass production of carbon emissions, and how we as developers and regular internet-users do not realize the carbon emissions we
+              add to the world. It allows users to sign-in through Google Authentication to see visualized statistics about their impact."
+              tools="React.JS, Redux, Express.JS, Node.JS, Javascript, Typescript, Firestore, Google Cloud"
+            />
+          </div>
           <div className="project-container">
             <div className="project-name">
               SmartVote
@@ -30,7 +74,7 @@ class Projects extends Component {
               as local elections are often overlooked, due to people being confused by the large number of positions and candidates running, even though it is just as important
               as the general election. I enjoyed diving into new APIs from Twitter, IBM Watson, and Google, exploring web scraping,
               and overall has a blast developing this project over a single weekend. I'm definitely looking forward to my next hackathon!"
-              tools="React.JS, Redux, Express.JS, Node.JS, Firebase, Heroku"
+              tools="React.JS, Redux, Express.JS, Node.JS, Javascript, Firestore, Google Cloud"
             />
           </div>
           <div className="project-container">
@@ -38,7 +82,7 @@ class Projects extends Component {
               <a href="https://aptitune.surge.sh/">AptiTune</a>
             </div>
             <div className="project-tagline">
-              Learning music made fun and interactive
+              Learning music made fun
             </div>
             <div className="project-pic">
               <img alt="music" src={aptitune} />
