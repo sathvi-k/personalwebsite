@@ -9,7 +9,7 @@ const Experience = () => {
         className="vertical-timeline-element--work"
         contentStyle={{ background: 'rgb(255, 220, 200)', color: '#000' }}
         contentArrowStyle={{ borderRight: '7px solid  rgb(255, 220, 200)' }}
-        date="January 2020 - Present"
+        date="January 2021 - Present"
         position="left"
         iconStyle={{ background: 'rgb(255, 220, 200)', color: '#fff' }}
       >
